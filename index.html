@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+    <form>
+        <input type="text" placeholder="user name" id="username">
+        <input type="password" placeholder="password" id="password">
+        <input type="button" onclick="printdata()" value="send">
+       
+    </form>
+<script>
     
+    function printdata(){
+    var uname = document.getElementById('username').value
+    var password = document.getElementById('password').value
+    console.log(uname)
+    console.log(password);
+    
+    }
+
+</script>
 </body>
 </html>
